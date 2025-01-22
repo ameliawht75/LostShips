@@ -3,16 +3,62 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <title>Atlanic Ocean</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheer" href="styles.css">
     </head>
     <body>
-        <div class="alert alert-primary" role="alert">
-            Lost Ships
-        </div>
-        <script src="node_modules/jquery/dist.jquery.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        <body class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Navigation</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="index.html">Home</span></a>
+                    <a class="nav-item nav-link" href="atlantic.html">Atlantic Ocean</a>
+                    <a class="nav-item nav-link" href="pacific.html">Pacific Ocean</a>
+                  </div>
+                </div>
+              </nav>
+              <img src="https://science4fun.info/wp-content/uploads/2022/02/Atlantic-Ocean-Map.jpg" alt="altanic map" class="rounded mx-auto d-block" height="300">
+              <p>Here you can find a list of ships that have sunk in the Atlantic Ocean with links to their pages for more information</p>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Ship</th>
+                    <th scope="col">Image</th>
+                    <th scope="col">Date Sunk</th>
+                    <th scope="col">Date Wreck Discovered</th>
+                    <th scope="col">Cause of Sinking</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Titanic</th>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/RMS_Titanic_3.jpg/800px-RMS_Titanic_3.jpg" height="100"></td>
+                    <td>April 14, 1912</td>
+                    <td>September 1, 1985</td>
+                    <td>Struck iceberg</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Lusitania</th>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/RMS_Lusitania_coming_into_port%2C_possibly_in_New_York%2C_1907-13-crop.jpg" height="100"></td>
+                    <td>May 7, 1915</td>
+                    <td>October 6, 1935</td>
+                    <td>Hit by topedo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Bismark</th>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Bundesarchiv_Bild_193-04-1-26%2C_Schlachtschiff_Bismarck.jpg/1200px-Bundesarchiv_Bild_193-04-1-26%2C_Schlachtschiff_Bismarck.jpg" height="100"></td>
+                    <td>May 27, 1941</td>
+                    <td>June 8, 1989</td>
+                    <td>Battle damage and deliberate scuttling</td>
+                  </tr>
+                </tbody>
+              </table>
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script scr="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     </body>
 </html>

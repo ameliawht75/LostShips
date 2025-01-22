@@ -4,40 +4,57 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Lost Ships</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     </head>
     <body class="container">
-        <nav class="navbar navbar-expand-sum navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">Home</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropDown" aria-controle="#navbarNavDropDown" aria-expanded="false" 
-            aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNarDropDown">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="atlantic.html">Altantic Ocean</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pacific Ocean</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Indian Ocean</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" 
-                    aria-haspopup="true" aria-expanded="false">Great Lakes</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Lake Superior</a>
-                        <a class="dropdown-item" href="#">Lake Michigan</a>
-                        <a class="dropdown-item" href="#">Lake Huron</a>
-                        <a class="dropdown-item" href="#">Lake Erie</a>
-                        <a class="dropdown-item" href="#">Lake Ontario</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Navigation</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Home</span></a>
+                <a class="nav-item nav-link" href="atlantic.html">Atlantic Ocean</a>
+                <a class="nav-item nav-link" href="pacific.html">Pacific Ocean</a>
+              </div>
+            </div>
+          </nav>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <img src="https://img.freepik.com/premium-photo/amazing-rusty-sunken-ship-sea-depths_188161-951.jpg?semt=ais_hybrid" alt="rusty ship" class="rounded mx-auto d-block">
+              </div>
+              <div class="col-sm">
+                <p>
+                    We are dedicated to creating a comprehensive resource for exploring the history, mystery, and significance of sunken vessels from around the world.  This website is design to provide detailed 
+                    information about famous and lesser-known shipwrecks, including their historical context, causes of sinking, and discoveries made during underwater explorations.
+                  </p>
+              </div>
+              <div class="col-sm">
+                <p>We send out a newletter each month detailing the progress on the creation of this site. Sign-up below via email.</p>
+            <form style="width: 26rem;">
+                <!-- Email input -->
+                <div class="d-flex justify-content-center">
+                    <div class="input-group w-auto">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Email"
+                          aria-label="Example input"
+                          aria-describedby="button-addon1"
+                        />
+                        <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary" type="button" id="button-addon1" data-mdb-ripple-color="dark">
+                            Submit
+                        </button>
                     </div>
-                </li>
-            </ul>
-        </div>
-        </nav>
+                </div>
+            </div>
+          </div>
+          
+        
+          
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script scr="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     </body>
 </html>
