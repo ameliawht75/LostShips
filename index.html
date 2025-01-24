@@ -6,7 +6,7 @@
         <title>Lost Ships</title>
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     </head>
-    <body class="container">
+    <body class="container"> <!--Kept the navbar simple-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Navigation</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,7 +20,7 @@
               </div>
             </div>
           </nav>
-          <div class="container">
+          <div class="container"> <!--Originally wanted a 3 column container but didn't like the flow of the whitespace.  Did make this a separate container from the other as it would make adding something like an alert easier.-->
             <div class="row">
               <div class="col-sm">
                 <h1 class="display-1">Lost Ships</h1>
@@ -28,7 +28,7 @@
           <div class="container">
             <div class="row">
               <div class="col-sm">
-                <img src="https://img.freepik.com/premium-photo/amazing-rusty-sunken-ship-sea-depths_188161-951.jpg?semt=ais_hybrid" alt="rusty ship" class="rounded mx-auto d-block">
+                <img src="https://img.freepik.com/premium-photo/amazing-rusty-sunken-ship-sea-depths_188161-951.jpg?semt=ais_hybrid" alt="rusty ship" class="rounded mx-auto d-block"><!--Wanted to try out the codes for images.-->
               </div>
               <div class="col-sm">
                 <p>
@@ -39,7 +39,7 @@
               <div class="col-sm">
                 <p>We send out a newletter each month detailing the progress on the creation of this site. Sign-up below via email.</p>
             <form style="width: 26rem;">
-                <!-- Email input -->
+                <!-- Email input for newsletter.  Could potentially be a support/donation form. -->
                 <div class="d-flex justify-content-center">
                     <div class="input-group w-auto">
                         <input
@@ -61,4 +61,9 @@
         <script src="node_modules/jquery/dist/jquery.js"></script>
         <script scr="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     </body>
+    <footer class="bg-body-tertiary text-center text-lg-start"><!--Footer just good practice.-->
+      <div class="text-center p-3" style="background-color: rgba(39, 58, 245, 0.43);">
+        Copyright 2025
+      </div>
+    </footer>
 </html>
